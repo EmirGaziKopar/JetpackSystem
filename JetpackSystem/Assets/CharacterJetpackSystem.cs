@@ -20,7 +20,7 @@ public class CharacterJetpackSystem : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.tag == "Floor")
+        if(collision.tag == "Floor" || collision.tag == "MainCamera")
         if (Input.GetMouseButton(0))
         {
                 rigidbody2D.AddForce(transform.up * newton);
