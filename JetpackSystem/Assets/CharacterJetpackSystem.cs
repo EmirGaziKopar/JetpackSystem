@@ -26,14 +26,14 @@ public class CharacterJetpackSystem : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
 
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.E))
         {
 
 
             transform.Rotate(0, 0, -rotationSpeed);
 
         }
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.Q))
         {
 
 
